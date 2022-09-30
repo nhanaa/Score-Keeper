@@ -1,0 +1,103 @@
+/* toggle class */
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+/* Main styling */
+
+body {
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    width: 50%;
+    height: 400px;
+    margin: auto auto;
+    flex-direction: column;
+    border: solid 5px black;
+}
+
+.score {
+    text-align: center;
+    font-size: 64px;
+}
+
+.instruction {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 5px black;
+}
+
+.button-section {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.button {
+    width: calc(100%/3);
+    height: 100%;
+    font-size: 1.2em;
+    border: none;
+}
+
+.button.p1 {
+    background-color: red;
+}
+
+.button.p1:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.1em); 
+}
+
+.button.p2 {
+    background-color: #2cd82c;
+}
+
+.button.p2:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #2cd82c;
+    transform: translateY(-0.1em); 
+}
+
+.button.reset {
+    background-color: #b2a5a5;
+}
+
+.button.reset:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #b2a5a5;
+    transform: translateY(-0.1em); 
+}
+
+.maxscore {
+    text-align: center;
+}
+
+.maxscore label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#maxscore-select {
+    width: 10%;
+    height: 30px;
+    border-radius: 40%;
+    background-color: #a9f1d9;
+    font-size: 1.2em;
+}
+
+@media(max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+    .button-section {
+        margin-top: 10px;
+    }
+}
