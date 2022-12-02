@@ -20,6 +20,7 @@ body {
     width: 50%;
     height: 400px;
     margin: auto auto;
+    margin-top: 20px;
     flex-direction: column;
     border: solid 5px black;
 }
@@ -88,14 +89,13 @@ body {
 #maxscore-select {
     width: 10%;
     height: 30px;
-    border-radius: 40%;
     background-color: #a9f1d9;
-    font-size: 1.2em;
+    font-size: 0.7em;
 }
 
 @media(max-width: 600px) {
     .main {
-        width: 100%;
+        width: 90%;
     }
     .button-section {
         margin-top: 10px;
