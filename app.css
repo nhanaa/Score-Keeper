@@ -23,6 +23,7 @@ body {
     margin-top: 20px;
     flex-direction: column;
     border: solid 5px black;
+    border-radius: 10%;
 }
 
 .score {
