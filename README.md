@@ -1,5 +1,6 @@
-## Score-Keeper
-#Description
+# Score-Keeper
+
+## Description
 A web-app to keep score for a game of two players.
-#Access
+## Access
 Use the following lik to access [https://nhanaa.github.io/Score-Keeper/](Score Keeper)
